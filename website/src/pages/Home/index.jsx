@@ -21,7 +21,7 @@ const Home = () => {
     const filteredBlogs = blogList.filter((blog) =>
       blog.category.toLowerCase().includes(searchKey.toLowerCase().trim())
     );
-    setBlogs(filteredBlogs[0].id < filteredBlogs[filteredBlogs.length-1].id ? filteredBlogs.reverse() : filteredBlogs);
+    setBlogs(filteredBlogs);
   };
 
   // Clear search and show all blogs
