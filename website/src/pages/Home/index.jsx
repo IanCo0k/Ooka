@@ -6,7 +6,7 @@ import SearchBar from '../../components/Home/SearchBar';
 import { blogList } from '../../config/data';
 
 const Home = () => {
-  const [blogs, setBlogs] = useState(blogList);
+  const [blogs, setBlogs] = useState(blogList.reverse());
   const [searchKey, setSearchKey] = useState('');
 
   // Search submit
@@ -17,16 +17,16 @@ const Home = () => {
 
   // Search for blog by category
   const handleSearchResults = () => {
-    const allBlogs = blogList;
-    const filteredBlogs = allBlogs.filter((blog) =>
+
+    const filteredBlogs = blogList.filter((blog) =>
       blog.category.toLowerCase().includes(searchKey.toLowerCase().trim())
     );
-    setBlogs(filteredBlogs);
+    setBlogs(filteredBlogs[0].id < filteredBlogs[filteredBlogs.length-1].id ? filteredBlogs.reverse() : filteredBlogs);
   };
 
   // Clear search and show all blogs
   const handleClearSearch = () => {
-    setBlogs(blogList);
+    setBlogs(blogList[0].id < blogList[blogList.length-1].id ? blogList.reverse() : blogList);
     setSearchKey('');
   };
 
