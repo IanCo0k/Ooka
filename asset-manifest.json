@@ -1,20 +1,13 @@
 {
   "files": {
-    "main.css": "/ooka/static/css/main.9f1e5228.chunk.css",
-    "main.js": "/ooka/static/js/main.5d9d6206.chunk.js",
-    "main.js.map": "/ooka/static/js/main.5d9d6206.chunk.js.map",
-    "runtime-main.js": "/ooka/static/js/runtime-main.8999484b.js",
-    "runtime-main.js.map": "/ooka/static/js/runtime-main.8999484b.js.map",
-    "static/js/2.a0130c04.chunk.js": "/ooka/static/js/2.a0130c04.chunk.js",
-    "static/js/2.a0130c04.chunk.js.map": "/ooka/static/js/2.a0130c04.chunk.js.map",
+    "main.css": "/ooka/static/css/main.130fc297.css",
+    "main.js": "/ooka/static/js/main.0e5d0095.js",
     "index.html": "/ooka/index.html",
-    "static/css/main.9f1e5228.chunk.css.map": "/ooka/static/css/main.9f1e5228.chunk.css.map",
-    "static/js/2.a0130c04.chunk.js.LICENSE.txt": "/ooka/static/js/2.a0130c04.chunk.js.LICENSE.txt"
+    "main.130fc297.css.map": "/ooka/static/css/main.130fc297.css.map",
+    "main.0e5d0095.js.map": "/ooka/static/js/main.0e5d0095.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.8999484b.js",
-    "static/js/2.a0130c04.chunk.js",
-    "static/css/main.9f1e5228.chunk.css",
-    "static/js/main.5d9d6206.chunk.js"
+    "static/css/main.130fc297.css",
+    "static/js/main.0e5d0095.js"
   ]
 }
