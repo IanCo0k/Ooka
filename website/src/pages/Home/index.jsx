@@ -13,7 +13,14 @@ const Home = () => {
   const handleSearchBar = (e) => {
     e.preventDefault();
     handleSearchResults();
+    reset();
   };
+
+  const reset = () => {
+    if(blogs[0].id < blogs[blogs.length-1].id){
+      setBlogs(blogs.reverse());
+    }
+  }
 
   // Search for blog by category
   const handleSearchResults = () => {
@@ -22,11 +29,13 @@ const Home = () => {
       blog.category.toLowerCase().includes(searchKey.toLowerCase().trim())
     );
     setBlogs(filteredBlogs);
+    reset();
   };
 
   // Clear search and show all blogs
   const handleClearSearch = () => {
     setBlogs(blogList);
+    reset();
     setSearchKey('');
   };
 
