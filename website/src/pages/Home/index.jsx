@@ -26,7 +26,7 @@ const Home = () => {
 
   // Clear search and show all blogs
   const handleClearSearch = () => {
-    setBlogs(blogList[0].id < blogList[blogList.length-1].id ? blogList.reverse() : blogList);
+    setBlogs(blogList);
     setSearchKey('');
   };
 
