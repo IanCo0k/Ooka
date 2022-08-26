@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/ooka/static/css/main.130fc297.css",
-    "main.js": "/ooka/static/js/main.6ebb85ce.js",
+    "main.js": "/ooka/static/js/main.efc7dcbe.js",
     "index.html": "/ooka/index.html",
     "main.130fc297.css.map": "/ooka/static/css/main.130fc297.css.map",
-    "main.6ebb85ce.js.map": "/ooka/static/js/main.6ebb85ce.js.map"
+    "main.efc7dcbe.js.map": "/ooka/static/js/main.efc7dcbe.js.map"
   },
   "entrypoints": [
     "static/css/main.130fc297.css",
-    "static/js/main.6ebb85ce.js"
+    "static/js/main.efc7dcbe.js"
   ]
 }
