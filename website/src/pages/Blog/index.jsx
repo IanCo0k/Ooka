@@ -36,7 +36,13 @@ const Blog = () => {
             </div>
           </header>
           <img src={blog.cover} alt='cover' />
-          <p className='blog-desc'>{blog.description}</p>
+          <p className='blog-desc'>
+          {blog.description.map((description, i) => (
+            <div key={i}>
+              {description}<br/><br/>
+            </div>
+          ))}
+          </p>
         </div>
       ) : (
         <EmptyList />
