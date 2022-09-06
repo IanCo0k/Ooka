@@ -3,9 +3,9 @@ import './styles.css';
 
 const Header = () => (
   <header className='home-header'>
-    <h2>Sports News</h2>
+    <h2>Tuesday Night Takes</h2>
     <h1>
-      <span>Ooka</span>
+      <span>Sports News</span>
     </h1>
   </header>
 );
