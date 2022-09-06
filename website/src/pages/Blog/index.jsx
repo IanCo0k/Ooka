@@ -24,6 +24,7 @@ const Blog = () => {
         <span> &#8592;</span> <span>Go Back</span>
       </Link>
       {blog ? (
+        <>
         <div className='blog-wrap'>
           <Helmet>
             <title>
@@ -50,6 +51,19 @@ const Blog = () => {
           ))}
           </p>
         </div>
+        <div className='blog-footer'>
+            <h1 className='footer-header'>{blog.authorName}</h1>
+            <p className='blog-date'>{blog.authorRole}</p>
+            <img className='footer-img' src={blog.authorAvatar} alt="Author Picture"/>
+            <h1 style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: '0 auto', textAlign: 'center'}}>
+            {blog.authorBio.map((description, i) => (
+            <div key={i}>
+              {description}<br/><br />
+            </div>
+          ))}
+            </h1>
+        </div>
+        </>
       ) : (
         <EmptyList />
       )}

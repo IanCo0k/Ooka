@@ -12,7 +12,7 @@ const BlogItem = ({
     authorAvatar,
     cover,
     category,
-    id,
+    id
   },
 }) => {
   return (

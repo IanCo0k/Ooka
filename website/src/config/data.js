@@ -52,6 +52,8 @@ export const blogList = [
     authorAvatar: 'https://campgeneva.org/wp-content/uploads/2022/06/Cook_Ian.jpg',
     createdAt: 'September 5, 2022',
     cover: 'https://s.hdnux.com/photos/01/27/24/53/22891256/3/ratio3x2_1800.jpg',
+    authorRole: 'NBA Writer',
+    authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Computer Science'],
   },  
   {
     id: 2,
@@ -74,6 +76,8 @@ export const blogList = [
     authorName: 'Nick Martin',
     authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQF69_iPKLuVGg/profile-displayphoto-shrink_800_800/0/1613173186664?e=1668038400&v=beta&t=rgOs-V8wGMY6_weE6O0zWVgRySLTK0uP4K8Be2YUWJM',
     createdAt: 'September 5, 2022',
+    authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
+    authorRole: 'College Sports Writer',
     cover: 'https://people.com/thmb/2_mKzKDYSKNGYedjZM7NO4WJmXM=/1500x844/smart/filters:no_upscale():focal(854x109:856x111)/anthony-richardson-florida-gaters-071822-1-e06fafcb2a054730b613f918779dd057.jpg',
   }
 
