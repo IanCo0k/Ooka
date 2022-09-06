@@ -1,6 +1,12 @@
 .blogItem-wrap {
   display: flex;
   flex-direction: column;
+  transition: 0.5s;
+}
+
+.blogItem-wrap:hover{
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 .blogItem-cover {
   width: 100%;

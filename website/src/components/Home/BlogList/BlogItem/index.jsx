@@ -16,6 +16,7 @@ const BlogItem = ({
   },
 }) => {
   return (
+    <Link className='blogItem-link' to={`/blog/${id}`}>
     <div className='blogItem-wrap'>
       <img className='blogItem-cover' src={cover} alt='cover' />
       <Chip label={category} />
@@ -29,11 +30,9 @@ const BlogItem = ({
             <p>{createdAt}</p>
           </div>
         </div>
-        <Link className='blogItem-link' to={`/blog/${id}`}>
-          ➝
-        </Link>
       </footer>
     </div>
+    </Link>
   );
 };
 
