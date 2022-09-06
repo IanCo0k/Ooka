@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router';
+import { Helmet } from 'react-helmet';
 import { blogList } from '../../config/data';
 import Chip from '../../components/common/Chip';
 import EmptyList from '../../components/common/EmptyList';
@@ -24,6 +25,11 @@ const Blog = () => {
       </Link>
       {blog ? (
         <div className='blog-wrap'>
+          <Helmet>
+            <title>
+              {blog.title}
+            </title>
+          </Helmet>
           <header>
             <p className='blog-date'>Published {blog.createdAt}</p>
             <h1>{blog.title}</h1>

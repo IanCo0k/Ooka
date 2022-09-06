@@ -4,6 +4,7 @@ import BlogList from '../../components/Home/BlogList';
 import Header from '../../components/Home/Header';
 import SearchBar from '../../components/Home/SearchBar';
 import { blogList } from '../../config/data';
+import { Helmet } from 'react-helmet'
 
 const Home = () => {
   const [blogs, setBlogs] = useState(blogList[0].id > blogList[blogList.length-1].id ? blogList : blogList.reverse());
@@ -32,6 +33,11 @@ const Home = () => {
 
   return (
     <div>
+      <Helmet>
+        <title>
+          Tuesday Night Takes
+        </title>
+      </Helmet>
       {/* Page Header */}
       <Header />
 
