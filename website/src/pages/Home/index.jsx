@@ -38,16 +38,18 @@ const Home = () => {
           Tuesday Night Takes
         </title>
       </Helmet>
-      {/* Page Header */}
-      <Header />
 
-      {/* Search Bar */}
-      <SearchBar
-        value={searchKey}
-        clearSearch={handleClearSearch}
-        formSubmit={handleSearchBar}
-        handleSearchKey={(e) => setSearchKey(e.target.value)}
-      />
+        <div>
+          <Header />
+          
+        </div>
+
+        <SearchBar
+          value={searchKey}
+          clearSearch={handleClearSearch}
+          formSubmit={handleSearchBar}
+          handleSearchKey={(e) => setSearchKey(e.target.value)}
+        />
 
       {/* Blog List & Empty View */}
       {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
