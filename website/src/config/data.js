@@ -73,7 +73,7 @@ export const blogList = [
       `This one is pretty easy for me. The one thing Richardson doesn’t have over these other guys is the gaudy passing numbers. Richardson however, made up for it by running for 3 TD’s. He was by far the best player on the field against Utah and it was pretty obvious. He led his team to the most impressive win of the week which puts him over these other guys as well. Richardson could continue to vault himself into to the top 10 of next years NFL Draft with more performances like this. `,],
     authorName: 'Nick Martin',
     authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQF69_iPKLuVGg/profile-displayphoto-shrink_800_800/0/1613173186664?e=1668038400&v=beta&t=rgOs-V8wGMY6_weE6O0zWVgRySLTK0uP4K8Be2YUWJM',
-    createdAt: 'September 9, 2022',
+    createdAt: 'September 5, 2022',
     cover: 'https://people.com/thmb/2_mKzKDYSKNGYedjZM7NO4WJmXM=/1500x844/smart/filters:no_upscale():focal(854x109:856x111)/anthony-richardson-florida-gaters-071822-1-e06fafcb2a054730b613f918779dd057.jpg',
   }
 

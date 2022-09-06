@@ -6,7 +6,7 @@ import SearchBar from '../../components/Home/SearchBar';
 import { blogList } from '../../config/data';
 
 const Home = () => {
-  const [blogs, setBlogs] = useState(blogList.reverse());
+  const [blogs, setBlogs] = useState(blogList[0].id > blogList[blogList.length-1].id ? blogList : blogList.reverse());
   const [searchKey, setSearchKey] = useState('');
 
   // Search submit
