@@ -17,12 +17,12 @@ const Top5PG = () => {
         <div className='blog-wrap'>
           <Helmet>
             <title>
-              {blogList[1].title}
+              {blogList[0].title}
             </title>
           </Helmet>
           <header>
             <p className='blog-date'>Published on {blogList[0].createdAt}</p>
-            <h1>{blogList[1].title}</h1>
+            <h1>{blogList[0].title}</h1>
             <div className='blog-subCategory'>
                 <div>
                 <Chip label={blogList[0].subCategory[0]}/>
