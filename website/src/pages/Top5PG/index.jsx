@@ -17,7 +17,7 @@ const Top5PG = () => {
         <div className='blog-wrap'>
           <Helmet>
             <title>
-              {blogList[0].title}
+              {blogList[1].title}
             </title>
           </Helmet>
           <header>
