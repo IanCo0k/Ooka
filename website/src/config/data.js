@@ -79,6 +79,17 @@ export const blogList = [
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
     authorRole: 'College Sports Writer',
     cover: 'https://people.com/thmb/2_mKzKDYSKNGYedjZM7NO4WJmXM=/1500x844/smart/filters:no_upscale():focal(854x109:856x111)/anthony-richardson-florida-gaters-071822-1-e06fafcb2a054730b613f918779dd057.jpg',
+  },
+  {
+    id: 3,
+    title: 'NFL Season Predictions',
+    category: 'NFL',
+    description:[`I think Rodgers will have an underwhelming season, but I believe he will still be good enough to win the NFC North. Their one-two punch of Aaron Jones and AJ Dillon is probably the best backfield in the NFL. The Packers will win this division again but let down their fans with another playoff loss.`],
+    authorName: 'Jacob Majoor',
+    authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQH5jSChfarphg/profile-displayphoto-shrink_800_800/0/1662510225096?e=1668038400&v=beta&t=gXXjX_fRwTVfqvUqeFCQEWDFasj8dOOMt6H9BSOq51g',
+    cover: 'https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-01/josh-allen-01212022-getty-ftr_6hrauamxk2za1u2rucqxi7ltz.png?itok=bz5Bp_oQ',
+    createdAt: 'September 7, 2022'
+
   }
 
 ];

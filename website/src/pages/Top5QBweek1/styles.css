@@ -58,3 +58,13 @@
 .footer-header{
   padding: .5rem;
 }
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+i{
+  font-size: 70px;
+  padding-inline: 1rem;
+}

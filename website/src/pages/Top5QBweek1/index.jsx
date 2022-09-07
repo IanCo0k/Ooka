@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router';
+import React from 'react';
 import { Helmet } from 'react-helmet';
-import { blogList } from '../../config/data';
 import Chip from '../../components/common/Chip';
 import '../Top5QBweek1/styles.css';
 import { Link } from 'react-router-dom';
@@ -17,22 +15,22 @@ const Top5QBweek1 = () => {
         <div className='blog-wrap'>
           <Helmet>
             <title>
-              {blogList[1].title}
+            Ranking The Top 5 QB Performances Of Week 1
             </title>
           </Helmet>
           <header>
-            <p className='blog-date'>Published on {blogList[1].createdAt}</p>
-            <h1>{blogList[1].title}</h1>
+            <p className='blog-date'>Published on September 5th</p>
+            <h1>Ranking The Top 5 QB Performances Of Week 1</h1>
             <div className='blog-subCategory'>
                 <div>
-                <Chip label={blogList[1].subCategory[0]}/>
+                <Chip label='NCAA'/>
                 </div>
                 <div>
-                <Chip label={blogList[1].subCategory[1]}/>
+                <Chip label='Rankings' />
                 </div>
             </div>
           </header>
-          <img src={blogList[1].cover} alt='cover' />
+          <img src='https://people.com/thmb/2_mKzKDYSKNGYedjZM7NO4WJmXM=/1500x844/smart/filters:no_upscale():focal(854x109:856x111)/anthony-richardson-florida-gaters-071822-1-e06fafcb2a054730b613f918779dd057.jpg' alt='cover' />
           <p className='blog-desc'>
 
           With week one of the college football season in the books, here are the 5 quarterbacks that I felt performed the best. <br /><br />
@@ -65,12 +63,18 @@ const Top5QBweek1 = () => {
           </p>
         </div>
         <div className='blog-footer'>
-            <h1 className='footer-header'>{blogList[1].authorName}</h1>
-            <p className='blog-date'>{blogList[1].authorRole}</p>
-            <img className='footer-img' src={blogList[1].authorAvatar} alt="Author Picture"/>
-            <h1 style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: '0 auto', textAlign: 'center', padding: '1rem'}}>
+            <h1 className='footer-header'>Nick Martin</h1>
+            <p className='blog-date'>College Sports Writer</p>
+            <img className='footer-img' src='https://media-exp1.licdn.com/dms/image/C5603AQF69_iPKLuVGg/profile-displayphoto-shrink_800_800/0/1613173186664?e=1668038400&v=beta&t=rgOs-V8wGMY6_weE6O0zWVgRySLTK0uP4K8Be2YUWJM' alt="Author Picture"/>
+            <p style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: '0 auto', textAlign: 'center', padding: '1rem'}}>
                 Rockford, Michigan <br /><br /> Central Michigan University <br /><br /> Broadcasting
-            </h1>
+            </p>
+
+            <div style={{ display: 'flex',  flexDirection: 'row' }}>
+                <span><a href="https://twitter.com/nicktalksball"><i class="fab fa-twitter"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/nick-martin-893aa2206/"><i class="fab fa-brands fa-linkedin"></i></a></span>
+                <span><a href="https://www.instagram.com/__nickmartin__/"><i class="fab fa-instagram"></i></a></span>
+            </div>
         </div>
         </>
       ) 

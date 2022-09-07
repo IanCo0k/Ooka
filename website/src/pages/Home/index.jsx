@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet'
 import styles from './styles.css';
 
 const Home = () => {
-  const [blogs, setBlogs] = useState(blogList);
+  const [blogs, setBlogs] = useState(blogList[0].id > blogList[1].id ? blogList : blogList.reverse());
 
 
   // Search for blog by category
@@ -38,6 +38,7 @@ const Home = () => {
           <div className='navbar'>
             <p onClick={() => handleSearchResults('NBA')}>NBA</p>
             <p onClick={() => handleSearchResults('NCAA')}>NCAA</p>
+            <p onClick={() => handleSearchResults('NFL')} >NFL</p>
             <p onClick={() => handleClearSearch()}>ALL</p>
           </div>
         </div>

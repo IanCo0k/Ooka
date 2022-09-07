@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router';
+import React from 'react';
 import { Helmet } from 'react-helmet';
 import { blogList } from '../../config/data';
 import Chip from '../../components/common/Chip';
@@ -17,22 +16,22 @@ const Top5PG = () => {
         <div className='blog-wrap'>
           <Helmet>
             <title>
-              {blogList[0].title}
+            Ranking The Top 5 Point Guards In The NBA
             </title>
           </Helmet>
           <header>
-            <p className='blog-date'>Published on {blogList[0].createdAt}</p>
-            <h1>{blogList[0].title}</h1>
+            <p className='blog-date'>Published on September 5th</p>
+            <h1>Ranking The Top 5 Point Guards In The NBA</h1>
             <div className='blog-subCategory'>
                 <div>
-                <Chip label={blogList[0].subCategory[0]}/>
+                <Chip label='NBA'/>
                 </div>
                 <div>
-                <Chip label={blogList[0].subCategory[1]}/>
+                <Chip label='Rankings'/>
                 </div>
             </div>
           </header>
-          <img src={blogList[0].cover} alt='cover' />
+          <img src={'https://s.hdnux.com/photos/01/27/24/53/22891256/3/ratio3x2_1800.jpg'} alt='cover' />
           <p className='blog-desc'>
           The current pool of PG's in the NBA has a great mix of young and veteran talent, and the upcoming season promises to have all of that talent on full display. Here are the top 5 Floor Generals to look out for as the 2022-2023 season soon begins <br/><br />
           DISCLAIMER: Damian Lillard will not be included due to last year's injury (but he otherwise would be on this list) <br /><br />
@@ -59,10 +58,16 @@ const Top5PG = () => {
         <div className='blog-footer'>
             <h1 className='footer-header'>Ian Cook</h1>
             <p className='blog-date'>NBA Writer</p>
-            <img className='footer-img' src={blogList[0].authorAvatar} alt="Author Picture"/>
-            <h1 style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: '0 auto', textAlign: 'center', padding: '1rem'}}>
+            <img className='footer-img' src={'https://campgeneva.org/wp-content/uploads/2022/06/Cook_Ian.jpg'} alt="Author Picture"/>
+            <p style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: '0 auto', textAlign: 'center', padding: '1rem'}}>
                 Rockford, Michigan <br /><br /> Central Michigan University <br /><br /> Computer Science
-            </h1>
+            </p>
+
+            <div style={{ display: 'flex',  flexDirection: 'row' }}>
+                <span><a href="https://twitter.com/Chefc0ok"><i class="fab fa-twitter"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/ian-cook-854896205/"><i class="fab fa-brands fa-linkedin"></i></a></span>
+                <span><a href="https://www.instagram.com/ianco0k/"><i class="fab fa-instagram"></i></a></span>
+            </div>
         </div>
         </>
       ) 
