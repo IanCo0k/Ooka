@@ -7,7 +7,7 @@ import { Helmet } from 'react-helmet'
 import styles from './styles.css';
 
 const Home = () => {
-  const [blogs, setBlogs] = useState(blogList[0].id > blogList[blogList.length-1].id ? blogList : blogList.reverse());
+  const [blogs, setBlogs] = useState(blogList);
 
 
   // Search for blog by category

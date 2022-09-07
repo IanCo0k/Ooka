@@ -19,8 +19,8 @@ const App = () => {
     <div className='container'>
       <HashRouter>
         <Route path='/' exact component={Home} />
-        <Route path='/blog/2' component={Top5PG} />
-        <Route path='/blog/1' component={Top5QBweek1} />
+        <Route path='/blog/1' component={Top5PG} />
+        <Route path='/blog/2' component={Top5QBweek1} />
       </HashRouter>
     </div>
   );
