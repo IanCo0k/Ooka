@@ -1,17 +1,16 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
-import { blogList } from '../../config/data';
+import Navbar from '../Home/Navbar';
 import Chip from '../../components/common/Chip';
 import '../Top5QBweek1/styles.css';
-import { Link } from 'react-router-dom';
 
 const Top5PG = () => {
 
+  let open = true;
+
   return (
     <>
-      <Link className='blog-goBack' to='/'>
-        <span> &#8592;</span> <span>Go Back</span>
-      </Link>
+        <Navbar open={open} />
         <>
         <div className='blog-wrap'>
           <Helmet>
@@ -58,7 +57,7 @@ const Top5PG = () => {
         <div className='blog-footer'>
             <h1 className='footer-header'>Ian Cook</h1>
             <p className='blog-date'>NBA Writer</p>
-            <img className='footer-img' src={'https://campgeneva.org/wp-content/uploads/2022/06/Cook_Ian.jpg'} alt="Author Picture"/>
+            <img className='footer-img' src={'https://campgeneva.org/wp-content/uploads/2022/06/Cook_Ian.jpg'} alt="Author"/>
             <p style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: '0 auto', textAlign: 'center', padding: '1rem'}}>
                 Rockford, Michigan <br /><br /> Central Michigan University <br /><br /> Computer Science
             </p>
@@ -69,8 +68,7 @@ const Top5PG = () => {
                 <span><a href="https://www.instagram.com/ianco0k/"><i class="fab fa-instagram"></i></a></span>
             </div>
         </div>
-        </>
-      ) 
+        </> 
     </>
   );
 };

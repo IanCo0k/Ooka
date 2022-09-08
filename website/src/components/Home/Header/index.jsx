@@ -3,10 +3,7 @@ import './styles.css';
 
 const Header = () => (
   <header className='home-header'>
-    <h2>Tuesday Night Takes</h2>
-    <h1>
-      <span>Sports News</span>
-    </h1>
+    <h3>Tuesday Night Takes</h3>
   </header>
 );
 

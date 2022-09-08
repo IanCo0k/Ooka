@@ -1,16 +1,16 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import Navbar from '../Home/Navbar';
 import Chip from '../../components/common/Chip';
 import '../Top5QBweek1/styles.css';
-import { Link } from 'react-router-dom';
 
 const Top5QBweek1 = () => {
 
+  let open = true;
+
   return (
     <>
-      <Link className='blog-goBack' to='/'>
-        <span> &#8592;</span> <span>Go Back</span>
-      </Link>
+        <Navbar open={open} />
         <>
         <div className='blog-wrap'>
           <Helmet>
@@ -65,7 +65,7 @@ const Top5QBweek1 = () => {
         <div className='blog-footer'>
             <h1 className='footer-header'>Nick Martin</h1>
             <p className='blog-date'>College Sports Writer</p>
-            <img className='footer-img' src='https://media-exp1.licdn.com/dms/image/C5603AQF69_iPKLuVGg/profile-displayphoto-shrink_800_800/0/1613173186664?e=1668038400&v=beta&t=rgOs-V8wGMY6_weE6O0zWVgRySLTK0uP4K8Be2YUWJM' alt="Author Picture"/>
+            <img className='footer-img' src='https://media-exp1.licdn.com/dms/image/C5603AQF69_iPKLuVGg/profile-displayphoto-shrink_800_800/0/1613173186664?e=1668038400&v=beta&t=rgOs-V8wGMY6_weE6O0zWVgRySLTK0uP4K8Be2YUWJM' alt="Author"/>
             <p style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: '0 auto', textAlign: 'center', padding: '1rem'}}>
                 Rockford, Michigan <br /><br /> Central Michigan University <br /><br /> Broadcasting
             </p>
@@ -77,7 +77,6 @@ const Top5QBweek1 = () => {
             </div>
         </div>
         </>
-      ) 
     </>
   );
 };

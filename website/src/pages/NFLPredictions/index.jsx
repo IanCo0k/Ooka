@@ -1,16 +1,17 @@
 import React from 'react';
+import useState from 'react';
 import { Helmet } from 'react-helmet';
 import Chip from '../../components/common/Chip';
 import '../Top5QBweek1/styles.css';
-import { Link } from 'react-router-dom';
+import Navbar from '../Home/Navbar';
 
 const NFLPredictions = () => {
 
+  let open = true;
+
   return (
     <>
-      <Link className='blog-goBack' to='/'>
-        <span> &#8592;</span> <span>Go Back</span>
-      </Link>
+        <Navbar open={open} />
         <>
         <div className='blog-wrap'>
           <Helmet>
@@ -35,7 +36,7 @@ const NFLPredictions = () => {
 
             <br />
             Predicting divisional standings for the upcoming season.
-            <br /><br />
+            <br />
 
             <br /><br /><hr /><br /><br />
             <h1>NFC NORTH</h1><br /><br />
@@ -118,7 +119,7 @@ const NFLPredictions = () => {
         <div className='blog-footer'>
             <h1 className='footer-header'>Jacob Majoor</h1>
             <p className='blog-date'>NFL Writer</p>
-            <img className='footer-img' src={'https://media-exp1.licdn.com/dms/image/C5603AQH5jSChfarphg/profile-displayphoto-shrink_800_800/0/1662510225096?e=1668038400&v=beta&t=gXXjX_fRwTVfqvUqeFCQEWDFasj8dOOMt6H9BSOq51g'} alt="Author Picture"/>
+            <img className='footer-img' src={'https://media-exp1.licdn.com/dms/image/C5603AQH5jSChfarphg/profile-displayphoto-shrink_800_800/0/1662510225096?e=1668038400&v=beta&t=gXXjX_fRwTVfqvUqeFCQEWDFasj8dOOMt6H9BSOq51g'} alt="Author"/>
             <p style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: '0 auto', textAlign: 'center', padding: '1rem'}}>
                 Rockford, Michigan <br /> Central Michigan University <br /> Finance <br />
             </p>
@@ -129,7 +130,6 @@ const NFLPredictions = () => {
             </div>
         </div>
         </>
-      ) 
     </>
   );
 };
