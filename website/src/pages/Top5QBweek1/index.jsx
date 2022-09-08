@@ -9,9 +9,8 @@ const Top5QBweek1 = () => {
   let open = true;
 
   return (
-    <>
+    <div>
         <Navbar open={open} />
-        <>
         <div className='blog-wrap'>
           <Helmet>
             <title>
@@ -76,8 +75,7 @@ const Top5QBweek1 = () => {
                 <span><a href="https://www.instagram.com/__nickmartin__/"><i class="fab fa-instagram"></i></a></span>
             </div>
         </div>
-        </>
-    </>
+    </div>
   );
 };
 
