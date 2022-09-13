@@ -36,7 +36,7 @@ const NFLW1 = () => {
 
         <h2>Buffalo Bills</h2><br /><br />
         <img src="https://cdn.vox-cdn.com/thumbor/lX4Jdc7OvxZ92wUow6uBy0qYDkI=/0x0:3748x2499/1200x800/filters:focal(1591x583:2189x1181)/cdn.vox-cdn.com/uploads/chorus_image/image/71355485/usa_today_19006802.0.jpg" alt="Bills" /><br /><br />
-        <p>The Buffalo Bills went out to LA to face the reigning Super Bowl Champions and open up the NFL season on Thursday night. The NFL assumed the Bills would be a Super Bowl favorite this year, but that wasn’t enough on the Bills eyes, so they went out and proved it. Josh Allen manufactured points through air and on the ground, showing just how scary of an offense we can expect from the Bills this year. The defense also held a strong Rams offense to 10 points in the game and shut them out in the second half. The AFC Championship very well may be played in Buffalo this year, the Bills are legit.</p>
+        <p>The Buffalo Bills went out to LA to face the reigning Super Bowl Champions and open up the NFL season on Thursday night. The NFL assumed the Bills would be a Super Bowl favorite this year, but that wasn’t enough in the Bills eyes, so they went out and proved it. Josh Allen manufactured points through the air and on the ground, showing just how scary of an offense we can expect from the Bills this year. The defense also held a strong Rams offense to 10 points in the game and shut them out in the second half. The AFC Championship very well may be played in Buffalo this year, the Bills are legit.</p>
         <br /><br /><hr />
 
         <h2>Los Angeles Chargers</h2><br /><br />
