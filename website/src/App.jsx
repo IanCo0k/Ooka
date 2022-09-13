@@ -27,7 +27,7 @@ const App = () => {
         <Route path='/blog/2' component={Top5QBweek1} />
         <Route path='/blog/3' component={NFLPredictions} />
         <Route path='/blog/4' component={NFLW1} />
-        <Route path='/blog/5' component={SarverFine} />
+        <Route path='/blog/5' component={CFBW2} />
         <Route path='/blog/6' component={CFBW2} />
       </HashRouter>
     </div>
