@@ -100,6 +100,18 @@ export const blogList = [
     authorAvatar: 'https://media-exp1.licdn.com/dms/image/C4E03AQErcwFTWNdQHA/profile-displayphoto-shrink_200_200/0/1613409482439?e=1665619200&v=beta&t=3HsFHoulpCyukzEx35xvKIQSoCXYQeqCxUTnS3GTIGM',
     cover: 'https://static01.nyt.com/images/2022/09/11/sports/11nfl-wwl-kc/11nfl-wwl-kc-videoSixteenByNine3000.jpg',
     createdAt: 'September 13, 2022'
+  },
+  {
+    id: 5,
+    title: `Sun's Owner Robert Sarver Fined $10M and Suspended for 1 Year`,
+    category: 'NBA',
+    description:[`Following recent investigations into alleged workplace misconduct, the NBA has found substantial evidence against Sarver to warrant a fine and suspension`],
+    authorName: 'Ian Cook',
+    authorAvatar: 'https://campgeneva.org/wp-content/uploads/2022/06/Cook_Ian.jpg',
+    createdAt: 'September 13, 2022',
+    cover: 'https://s.yimg.com/ny/api/res/1.2/xaSQuMxgK3tKqGuATWfxWw--/YXBwaWQ9aGlnaGxhbmRlcjt3PTY0MDtoPTQyNw--/https://s.yimg.com/os/creatr-uploaded-images/2021-10/25d24be0-3397-11ec-b1fd-2d0150a09b00',
+    authorRole: 'NBA Writer',
+    authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Computer Science'],
   }
 
 ];

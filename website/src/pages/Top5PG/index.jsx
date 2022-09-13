@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
+import { TwitterTweetEmbed } from 'react-twitter-embed';
 import Navbar from '../Home/Navbar';
 import Chip from '../../components/common/Chip';
 import '../Top5QBweek1/styles.css';
