@@ -1,6 +1,16 @@
+@keyframes from-top{
+  from{
+    margin-top: -1100%;
+  }
+  to{
+    margin: 0%;
+  }
+}
+
 .blog-wrap {
   max-width: 700px;
   margin: .5rem auto;
+  animation: 1s from-top;
 }
 
 .blog-goBack {
@@ -10,15 +20,18 @@
   font-weight: 500;
   margin-bottom: 2rem;
   display: block;
+  animation: 1s from-top
 }
 .blog-wrap header {
   text-align: center;
+  animation: 1s from-top
 }
 
 .blog-date {
   font-size: 0.8rem;
   color: #a9a9a9;
   font-weight: 500;
+  animation: 1s from-top
 }
 
 .blog-wrap img {
@@ -35,6 +48,7 @@
 .blog-desc {
   padding: 1rem;
   margin-top: 1.5rem;
+  animation: 1s from-top
 }
 .footer-img {
   width: 300px;
@@ -43,6 +57,7 @@
   object-fit: cover;
   margin-right: 0.5rem;
   padding: 1rem;
+  animation: 1s from-top
 }
 
 .blog-footer{
@@ -53,10 +68,12 @@
   flex-wrap: wrap;
   max-width: 700px;
   margin: 0 auto;
+  animation: 1s from-top
 }
 
 .footer-header{
   padding: .5rem;
+  animation: 1s from-top
 }
 
 a{
