@@ -89,7 +89,7 @@ const NFLPredictions = () => {
             Bills: 15-2 <br />
             Dolphins: 11-6 <br />
             Pats: 9-8 <br />
-            Jets: 3-14 <br />br
+            Jets: 3-14 <br /><br />
             The Bills have everything you want in a team. Josh Allen is the favorite to win MVP and will lead this team to the best record in the league. I think they make the Superbowl, but the Rams experience causes the Bills to finish one game short. <br /><br />
             <hr /><br /><br />
 
