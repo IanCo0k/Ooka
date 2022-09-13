@@ -90,6 +90,16 @@ export const blogList = [
     cover: 'https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-01/josh-allen-01212022-getty-ftr_6hrauamxk2za1u2rucqxi7ltz.png?itok=bz5Bp_oQ',
     createdAt: 'September 7, 2022'
 
+  },
+  {
+    id: 4,
+    title: 'Winners and Losers of Week 1',
+    category: 'NFL',
+    description:[`Discussing the winners and losers from week 1`],
+    authorName: 'Jared Haverdink',
+    authorAvatar: 'https://media-exp1.licdn.com/dms/image/C4E03AQErcwFTWNdQHA/profile-displayphoto-shrink_200_200/0/1613409482439?e=1665619200&v=beta&t=3HsFHoulpCyukzEx35xvKIQSoCXYQeqCxUTnS3GTIGM',
+    cover: 'https://static01.nyt.com/images/2022/09/11/sports/11nfl-wwl-kc/11nfl-wwl-kc-videoSixteenByNine3000.jpg',
+    createdAt: 'September 13, 2022'
   }
 
 ];
