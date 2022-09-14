@@ -87,9 +87,9 @@ const NFLW1 = () => {
             </p>
 
             <div style={{ display: 'flex',  flexDirection: 'row' }}>
-                <span><a href="https://twitter.com/Chefc0ok"><i class="fab fa-twitter"></i></a></span>
-                <span><a href="https://www.linkedin.com/in/ian-cook-854896205/"><i class="fab fa-brands fa-linkedin"></i></a></span>
-                <span><a href="https://www.instagram.com/ianco0k/"><i class="fab fa-instagram"></i></a></span>
+                <span><a href="https://twitter.com/jared_haverdink"><i class="fab fa-twitter"></i></a></span>
+                <span><a href="https://www.linkedin.com/in/jared-haverdink-971b46206/"><i class="fab fa-brands fa-linkedin"></i></a></span>
+                <span><a href="https://www.instagram.com/jared_haverdink/"><i class="fab fa-instagram"></i></a></span>
             </div>
         </div>
         </> 

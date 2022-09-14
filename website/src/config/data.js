@@ -108,7 +108,7 @@ export const blogList = [
     description: [`5 biggest takeaways from Week 2 of the 2022-2023 College Football season`],
     authorName: 'Nick Martin',
     authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQF69_iPKLuVGg/profile-displayphoto-shrink_800_800/0/1613173186664?e=1668038400&v=beta&t=rgOs-V8wGMY6_weE6O0zWVgRySLTK0uP4K8Be2YUWJM',
-    createdAt: 'September 5, 2022',
+    createdAt: 'September 13, 2022',
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
     authorRole: 'College Sports Writer',
     cover: 'https://cdn.vox-cdn.com/thumbor/GeC2W90kutoJ0J5qJ07iQF6hKlA=/0x0:4739x3330/1200x800/filters:focal(1991x1286:2749x2044)/cdn.vox-cdn.com/uploads/chorus_image/image/71353520/1422600729.0.jpg',
