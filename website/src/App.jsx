@@ -6,7 +6,7 @@ import Top5QBweek1 from './pages/Top5QBweek1';
 import Top5PG from './pages/Top5PG';
 import NFLPredictions from './pages/NFLPredictions';
 import NFLW1 from './pages/NFLW1';
-import SarverFine from './pages/SarverFine';
+import Top5Backcourts from './pages/Top5Backcourts';
 import CFBW2 from './pages/CFBW2';
 import Home from './pages/Home';
 import ReactGA from 'react-ga';
@@ -28,7 +28,7 @@ const App = () => {
         <Route path='/blog/3' component={NFLPredictions} />
         <Route path='/blog/4' component={NFLW1} />
         <Route path='/blog/5' component={CFBW2} />
-        <Route path='/blog/6' component={CFBW2} />
+        <Route path='/blog/6' component={Top5Backcourts} />
       </HashRouter>
     </div>
   );

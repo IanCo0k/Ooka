@@ -112,6 +112,18 @@ export const blogList = [
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
     authorRole: 'College Sports Writer',
     cover: 'https://cdn.vox-cdn.com/thumbor/GeC2W90kutoJ0J5qJ07iQF6hKlA=/0x0:4739x3330/1200x800/filters:focal(1991x1286:2749x2044)/cdn.vox-cdn.com/uploads/chorus_image/image/71353520/1422600729.0.jpg',
+  },
+  {
+    id: 6,
+    title: 'Ranking the Top Five Backcourts in the NBA for the 2022-2023 NBA Season',
+    category: 'NBA',
+    description: [`The level of talent in NBA backcourts today is arguably the greatest that the league has ever seen. Here are the top 5 amongst those groups: `],
+    authorName: 'Ian Cook',
+    authorAvatar: 'https://campgeneva.org/wp-content/uploads/2022/06/Cook_Ian.jpg',
+    createdAt: 'September 15, 2022',
+    cover: 'https://www.si.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg3OTM4NzQzMjY3NjMzMDk4/steph-klay-getty_0.jpg',
+    authorRole: 'NBA Writer',
+    authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Computer Science'],
   }
 
 ];
