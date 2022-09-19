@@ -124,6 +124,18 @@ export const blogList = [
     cover: 'https://www.si.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg3OTM4NzQzMjY3NjMzMDk4/steph-klay-getty_0.jpg',
     authorRole: 'NBA Writer',
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Computer Science'],
+  },
+  {
+    id: 7,
+    title: 'Biggest Takeaways From Week Three of College Football',
+    category: 'NCAA',
+    description: [`Following the conclusion of week 3, let's take a deep dive and see what stood out the most:`],
+    authorName: 'Nick Martin',
+    authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQF69_iPKLuVGg/profile-displayphoto-shrink_800_800/0/1613173186664?e=1668038400&v=beta&t=rgOs-V8wGMY6_weE6O0zWVgRySLTK0uP4K8Be2YUWJM',
+    createdAt: 'September 19, 2022',
+    authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
+    authorRole: 'College Sports Writer',
+    cover: 'https://www.gannett-cdn.com/presto/2022/09/18/PDTF/d0d80661-1829-49a0-b8ca-a485217eb2fd-USATSI_19068386.jpg',
   }
 
 ];
