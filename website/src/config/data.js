@@ -136,6 +136,18 @@ export const blogList = [
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
     authorRole: 'College Sports Writer',
     cover: 'https://www.gannett-cdn.com/presto/2022/09/18/PDTF/d0d80661-1829-49a0-b8ca-a485217eb2fd-USATSI_19068386.jpg',
+  },
+  {
+    id: 8,
+    title: 'Will 2023 be the Class That Brings Texas Back?',
+    category: 'NCAA',
+    description: [`So much has been made about the 2023 recruiting that Texas has assembled thus far. Rightfully so, as the Longhorns currently have the number two class in the country just behind Alabama. The problem for Texas in recent years has been getting the good recruiting classes to translate to wins on the field. I would say the reason they haven’t been able to translate these classes to wins is because of the quarterback position. Since the dominant stretch from ‘04 to ‘09 with Vince Young and Colt McCoy, Texas has had one season with over 10 wins. The Longhorns had some success with Sam Ehlinger, but certainly not up to the standards of the fans of Texas football. The ‘23 class seems to have solved that problem. While rankings don’t translate to success 100 percent of the time, Arch Manning is the highest rated player Texas has landed in a long time. Being the composite number one recruit, Arch has all the projections to be a very good quarterback for Texas. Along with Manning, Texas landed former five-star Quinn Ewers from Ohio State. Ewers like Manning, once had a perfect player rating on 247sports. Ewers was showing his potential against Alabama before suffering a sprained sprained SC joint during the game. It was initially reported Ewers would miss six weeks, but after he was on the field during warmups against UTSA, it’s looking evident that Ewers will make a return much sooner than expected. It’s obvious that the Longhorns have two extremely talented guys at the quarterback position, so it will be exciting to watch for the next few years.`],
+    authorName: 'Nick Martin',
+    authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQF69_iPKLuVGg/profile-displayphoto-shrink_800_800/0/1613173186664?e=1668038400&v=beta&t=rgOs-V8wGMY6_weE6O0zWVgRySLTK0uP4K8Be2YUWJM',
+    createdAt: 'September 19, 2022',
+    authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
+    authorRole: 'College Sports Writer',
+    cover: 'https://cdn.vox-cdn.com/thumbor/9-9_Ad5zaoLePWb5U820eEPQqlY=/0x0:4872x3248/1200x800/filters:focal(2082x686:2860x1464)/cdn.vox-cdn.com/uploads/chorus_image/image/71379767/1422531040.0.jpg',
   }
 
 ];

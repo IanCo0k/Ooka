@@ -9,6 +9,7 @@ import NFLW1 from './pages/NFLW1';
 import Top5Backcourts from './pages/Top5Backcourts';
 import CFBW2 from './pages/CFBW2';
 import CFBW3 from './pages/CFBW3';
+import Texas from './pages/Texas';
 import Home from './pages/Home';
 import ReactGA from 'react-ga';
 const TRACKING_ID = "G-N5G4KBHM6D";
@@ -31,6 +32,7 @@ const App = () => {
         <Route path='/blog/5' component={CFBW2} />
         <Route path='/blog/6' component={Top5Backcourts} />
         <Route path='/blog/7' component={CFBW3} />
+        <Route path='/blog/8' component={Texas} />
       </HashRouter>
     </div>
   );
