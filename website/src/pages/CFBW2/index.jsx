@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet';
 import { TwitterTweetEmbed } from 'react-twitter-embed';
 import Navbar from '../Home/Navbar';
 import Chip from '../../components/common/Chip';
+import Testing from './testing.png';
 import '../Top5QBweek1/styles.css';
 
 const CFBW2 = () => {
@@ -32,7 +33,7 @@ const CFBW2 = () => {
                 </div>
             </div>
           </header>
-          <img src={'https://cdn.vox-cdn.com/thumbor/GeC2W90kutoJ0J5qJ07iQF6hKlA=/0x0:4739x3330/1200x800/filters:focal(1991x1286:2749x2044)/cdn.vox-cdn.com/uploads/chorus_image/image/71353520/1422600729.0.jpg'} alt='cover' />
+          <img src={Testing} alt='cover' />
           <p className='blog-desc'>
             <br /><br />
 
