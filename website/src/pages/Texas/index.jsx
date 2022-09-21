@@ -50,7 +50,7 @@ const Texas = () => {
           </p>
         </div>
         <div className='blog-footer'>
-            <h1 className='footer-header'></h1>
+            <h1 className='footer-header'>Nick Martin</h1>
             <p className='blog-date'></p>
             <img className='footer-img' src={'https://media-exp1.licdn.com/dms/image/C5603AQF69_iPKLuVGg/profile-displayphoto-shrink_800_800/0/1613173186664?e=1668038400&v=beta&t=rgOs-V8wGMY6_weE6O0zWVgRySLTK0uP4K8Be2YUWJM'} alt="Author"/>
             <p style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: '0 auto', textAlign: 'center', padding: '1rem'}}>
