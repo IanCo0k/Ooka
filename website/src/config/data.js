@@ -1,4 +1,12 @@
 //This is where all the different articles will be stored
+import blog1 from './blog1.png';
+import blog2 from './blog2.png';
+import blog3 from './blog3.png';
+import blog4 from './blog4.png';
+import blog5 from './blog5.png';
+import blog6 from './blog6.png';
+import blog7 from './blog7.png';
+import blog8 from './blog8.png';
 
 export const blogList = [
   {
@@ -51,7 +59,7 @@ export const blogList = [
     authorName: 'Ian Cook',
     authorAvatar: 'https://campgeneva.org/wp-content/uploads/2022/06/Cook_Ian.jpg',
     createdAt: 'September 5, 2022',
-    cover: 'https://s.hdnux.com/photos/01/27/24/53/22891256/3/ratio3x2_1800.jpg',
+    cover: blog1,
     authorRole: 'NBA Writer',
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Computer Science'],
   },  
@@ -78,7 +86,7 @@ export const blogList = [
     createdAt: 'September 5, 2022',
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
     authorRole: 'College Sports Writer',
-    cover: 'https://people.com/thmb/2_mKzKDYSKNGYedjZM7NO4WJmXM=/1500x844/smart/filters:no_upscale():focal(854x109:856x111)/anthony-richardson-florida-gaters-071822-1-e06fafcb2a054730b613f918779dd057.jpg',
+    cover: blog2,
   },
   {
     id: 3,
@@ -87,7 +95,7 @@ export const blogList = [
     description:[`I think Rodgers will have an underwhelming season, but I believe he will still be good enough to win the NFC North. Their one-two punch of Aaron Jones and AJ Dillon is probably the best backfield in the NFL. The Packers will win this division again but let down their fans with another playoff loss.`],
     authorName: 'Jacob Majoor',
     authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQH5jSChfarphg/profile-displayphoto-shrink_800_800/0/1662510225096?e=1668038400&v=beta&t=gXXjX_fRwTVfqvUqeFCQEWDFasj8dOOMt6H9BSOq51g',
-    cover: 'https://library.sportingnews.com/styles/twitter_card_120x120/s3/2022-01/josh-allen-01212022-getty-ftr_6hrauamxk2za1u2rucqxi7ltz.png?itok=bz5Bp_oQ',
+    cover: blog3,
     createdAt: 'September 7, 2022'
 
   },
@@ -98,7 +106,7 @@ export const blogList = [
     description:[`Discussing the winners and losers from week 1`],
     authorName: 'Jared Haverdink',
     authorAvatar: 'https://media-exp1.licdn.com/dms/image/C4E03AQErcwFTWNdQHA/profile-displayphoto-shrink_200_200/0/1613409482439?e=1665619200&v=beta&t=3HsFHoulpCyukzEx35xvKIQSoCXYQeqCxUTnS3GTIGM',
-    cover: 'https://static01.nyt.com/images/2022/09/11/sports/11nfl-wwl-kc/11nfl-wwl-kc-videoSixteenByNine3000.jpg',
+    cover: blog4,
     createdAt: 'September 13, 2022'
   },
   {
@@ -111,7 +119,7 @@ export const blogList = [
     createdAt: 'September 13, 2022',
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
     authorRole: 'College Sports Writer',
-    cover: 'https://cdn.vox-cdn.com/thumbor/GeC2W90kutoJ0J5qJ07iQF6hKlA=/0x0:4739x3330/1200x800/filters:focal(1991x1286:2749x2044)/cdn.vox-cdn.com/uploads/chorus_image/image/71353520/1422600729.0.jpg',
+    cover: blog5,
   },
   {
     id: 6,
@@ -121,7 +129,7 @@ export const blogList = [
     authorName: 'Ian Cook',
     authorAvatar: 'https://campgeneva.org/wp-content/uploads/2022/06/Cook_Ian.jpg',
     createdAt: 'September 15, 2022',
-    cover: 'https://www.si.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTg3OTM4NzQzMjY3NjMzMDk4/steph-klay-getty_0.jpg',
+    cover: blog6,
     authorRole: 'NBA Writer',
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Computer Science'],
   },
@@ -135,7 +143,7 @@ export const blogList = [
     createdAt: 'September 19, 2022',
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
     authorRole: 'College Sports Writer',
-    cover: 'https://www.gannett-cdn.com/presto/2022/09/18/PDTF/d0d80661-1829-49a0-b8ca-a485217eb2fd-USATSI_19068386.jpg',
+    cover: blog7,
   },
   {
     id: 8,
@@ -147,7 +155,7 @@ export const blogList = [
     createdAt: 'September 19, 2022',
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
     authorRole: 'College Sports Writer',
-    cover: 'https://cdn.vox-cdn.com/thumbor/9-9_Ad5zaoLePWb5U820eEPQqlY=/0x0:4872x3248/1200x800/filters:focal(2082x686:2860x1464)/cdn.vox-cdn.com/uploads/chorus_image/image/71379767/1422531040.0.jpg',
+    cover: blog8,
   }
 
 ];

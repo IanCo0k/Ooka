@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import Logo from './logo.png';
 
 export default function Navbar(props) {
 
@@ -10,7 +11,7 @@ export default function Navbar(props) {
     return (
         <nav className="navigation">
           <a href="/" className="brand-name">
-            <h4>Tuesday Night Takes</h4>
+            <img src={Logo} alt="logo" style={{ height: '50px', width: '100%' }} />
           </a>
           <button onClick={() => {
             if(!expanded){
