@@ -11,7 +11,7 @@ export default function Navbar(props) {
     return (
         <nav className="navigation">
           <a href="/" className="brand-name">
-            <img src={Logo} alt="logo" style={{ height: '50px', width: '100%' }} />
+            <img src={Logo} alt="logo" style={{ height: '50px', width: '100px' }} />
           </a>
           <button onClick={() => {
             if(!expanded){
