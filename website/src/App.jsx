@@ -6,6 +6,7 @@ import Top5QBweek1 from './pages/Top5QBweek1';
 import Top5PG from './pages/Top5PG';
 import NFLPredictions from './pages/NFLPredictions';
 import NFLW1 from './pages/NFLW1';
+import NFLW2 from './pages/NFLW2';
 import Top5Backcourts from './pages/Top5Backcourts';
 import CFBW2 from './pages/CFBW2';
 import CFBW3 from './pages/CFBW3';
@@ -33,6 +34,7 @@ const App = () => {
         <Route path='/blog/6' component={Top5Backcourts} />
         <Route path='/blog/7' component={CFBW3} />
         <Route path='/blog/8' component={Texas} />
+        <Route path='/blog/9' component={NFLW2} />
       </HashRouter>
     </div>
   );

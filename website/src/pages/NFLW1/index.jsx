@@ -76,7 +76,7 @@ const NFLW1 = () => {
             <p className='blog-date'>NFL Writer</p>
             <img className='footer-img' src={'https://media-exp1.licdn.com/dms/image/C4E03AQErcwFTWNdQHA/profile-displayphoto-shrink_200_200/0/1613409482439?e=1665619200&v=beta&t=3HsFHoulpCyukzEx35xvKIQSoCXYQeqCxUTnS3GTIGM'} alt="Author"/>
             <p style={{display: 'flex', justifyContent: 'center', flexDirection: 'column', margin: '0 auto', textAlign: 'center', padding: '1rem'}}>
-                Rockford, Michigan <br /><br /> Central Michigan University <br /><br /> Accounting
+                Hudsonville, Michigan <br /><br /> Central Michigan University <br /><br /> Accounting
             </p>
 
             <div style={{ display: 'flex',  flexDirection: 'row' }}>

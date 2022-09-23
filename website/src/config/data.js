@@ -7,6 +7,7 @@ import blog5 from './blog5.png';
 import blog6 from './blog6.png';
 import blog7 from './blog7.png';
 import blog8 from './blog8.png';
+import blog9 from './blog9.png';
 
 export const blogList = [
   {
@@ -156,6 +157,16 @@ export const blogList = [
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
     authorRole: 'College Sports Writer',
     cover: blog8,
+  },
+  {
+    id: 9,
+    title: 'Winners & Losers  of Week 2',
+    category: 'NFL',
+    description: ['Discussing the winners and losers from week 1'],
+    authorName: 'Jared Haverdink',
+    authorAvatar: 'https://media-exp1.licdn.com/dms/image/C4E03AQErcwFTWNdQHA/profile-displayphoto-shrink_200_200/0/1613409482439?e=1665619200&v=beta&t=3HsFHoulpCyukzEx35xvKIQSoCXYQeqCxUTnS3GTIGM',
+    cover: blog9,
+    createdAt: 'September 13, 2022'
   }
 
 ];
