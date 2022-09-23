@@ -162,7 +162,7 @@ export const blogList = [
     id: 9,
     title: 'Winners & Losers  of Week 2',
     category: 'NFL',
-    description: ['Discussing the winners and losers from week 1'],
+    description: ['Discussing the winners and losers from week 2'],
     authorName: 'Jared Haverdink',
     authorAvatar: 'https://media-exp1.licdn.com/dms/image/C4E03AQErcwFTWNdQHA/profile-displayphoto-shrink_200_200/0/1613409482439?e=1665619200&v=beta&t=3HsFHoulpCyukzEx35xvKIQSoCXYQeqCxUTnS3GTIGM',
     cover: blog9,
