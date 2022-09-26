@@ -58,6 +58,11 @@ export default function Navbar(props) {
               <li  onClick={() => {
                 setExpanded(false);
               }}>
+                <a href="/#/about"><p>ABOUT US</p></a>
+              </li>
+              <li  onClick={() => {
+                setExpanded(false);
+              }}>
                 <a href="/"><p>HOME</p></a>
               </li>
             </ul>

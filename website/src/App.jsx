@@ -12,6 +12,7 @@ import CFBW2 from './pages/CFBW2';
 import CFBW3 from './pages/CFBW3';
 import Texas from './pages/Texas';
 import Home from './pages/Home';
+import AboutUs from './pages/AboutUs';
 import ReactGA from 'react-ga';
 const TRACKING_ID = "G-N5G4KBHM6D";
 ReactGA.initialize(TRACKING_ID);
@@ -35,6 +36,7 @@ const App = () => {
         <Route path='/blog/7' component={CFBW3} />
         <Route path='/blog/8' component={Texas} />
         <Route path='/blog/9' component={NFLW2} />
+        <Route path='/about/' component={AboutUs} />
       </HashRouter>
     </div>
   );
