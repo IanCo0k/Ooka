@@ -10,6 +10,7 @@ import NFLW2 from './pages/NFLW2';
 import Top5Backcourts from './pages/Top5Backcourts';
 import CFBW2 from './pages/CFBW2';
 import CFBW3 from './pages/CFBW3';
+import CFBW4 from './pages/CFBW4';
 import Texas from './pages/Texas';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
@@ -36,6 +37,7 @@ const App = () => {
         <Route path='/blog/7' component={CFBW3} />
         <Route path='/blog/8' component={Texas} />
         <Route path='/blog/9' component={NFLW2} />
+        <Route path='/blog/10' component={CFBW4} />
         <Route path='/about/' component={AboutUs} />
       </HashRouter>
     </div>

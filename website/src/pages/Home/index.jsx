@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import EmptyList from '../../components/common/EmptyList';
 import BlogList from '../../components/Home/BlogList';
 import Navbar from './Navbar';
-import Header from '../../components/Home/Header';
 import { blogList } from '../../config/data';
 import { Helmet } from 'react-helmet'
 import styles from './styles.css';
@@ -31,7 +30,7 @@ const Home = () => {
 
     <Navbar handleSearchResults={handleSearchResults} handleClearSearch={handleClearSearch} />
 
-    <div style={{ margin: '2rem' }}>
+    <div style={{ padding: '2rem'}} >
       <Helmet>
         <title>
           Tuesday Night Takes
@@ -39,7 +38,7 @@ const Home = () => {
       </Helmet>
 
       {/* Blog List & Empty View */}
-      {!blogs.length ? <EmptyList /> : <BlogList blogs={blogs} />}
+      {!blogs.length ? <EmptyList /> : <div style={{ margin: '2rem' }}><BlogList blogs={blogs} /></div>}
     </div>
     </>
   );

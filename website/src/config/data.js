@@ -8,6 +8,7 @@ import blog6 from './blog6.png';
 import blog7 from './blog7.png';
 import blog8 from './blog8.png';
 import blog9 from './blog9.png';
+import blog10 from './blog10.png';
 
 export const blogList = [
   {
@@ -167,6 +168,18 @@ export const blogList = [
     authorAvatar: 'https://media-exp1.licdn.com/dms/image/C4E03AQErcwFTWNdQHA/profile-displayphoto-shrink_200_200/0/1613409482439?e=1665619200&v=beta&t=3HsFHoulpCyukzEx35xvKIQSoCXYQeqCxUTnS3GTIGM',
     cover: blog9,
     createdAt: 'September 13, 2022'
+  },
+  {
+    id: 10,
+    title: 'Takeaways from Week Four of College Football',
+    category: 'NCAA',
+    description: [`Following the conclusion of week 4, let's take a deep dive and see what stood out the most:`],
+    authorName: 'Nick Martin',
+    authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQF69_iPKLuVGg/profile-displayphoto-shrink_800_800/0/1613173186664?e=1668038400&v=beta&t=rgOs-V8wGMY6_weE6O0zWVgRySLTK0uP4K8Be2YUWJM',
+    createdAt: 'September 19, 2022',
+    authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
+    authorRole: 'College Sports Writer',
+    cover: blog10,
   }
 
 ];
