@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.78c6be41.css",
-    "main.js": "/static/js/main.a7454584.js",
+    "main.css": "/static/css/main.4c4ffbbc.css",
+    "main.js": "/static/js/main.482b02f3.js",
     "static/media/us.png": "/static/media/us.c90f238b44ce3f6c780e.png",
     "static/media/blog6.png": "/static/media/blog6.f7262ea52db93487a386.png",
     "static/media/Cover.png": "/static/media/Cover.8a27c9186ae2be590aab.png",
@@ -14,13 +14,15 @@
     "static/media/testing.png": "/static/media/testing.4647dd8abf20444450f1.png",
     "static/media/blog2.png": "/static/media/blog2.b8fd497be1df35cf086c.png",
     "static/media/blog1.png": "/static/media/blog1.5da89a374c3b9618d7c2.png",
+    "static/media/Hendon.png": "/static/media/Hendon.bef2997ff19ba9f275ba.png",
+    "static/media/blog10.png": "/static/media/blog10.bef2997ff19ba9f275ba.png",
     "static/media/logo.png": "/static/media/logo.3d3e51de597dba930b05.png",
     "index.html": "/index.html",
-    "main.78c6be41.css.map": "/static/css/main.78c6be41.css.map",
-    "main.a7454584.js.map": "/static/js/main.a7454584.js.map"
+    "main.4c4ffbbc.css.map": "/static/css/main.4c4ffbbc.css.map",
+    "main.482b02f3.js.map": "/static/js/main.482b02f3.js.map"
   },
   "entrypoints": [
-    "static/css/main.78c6be41.css",
-    "static/js/main.a7454584.js"
+    "static/css/main.4c4ffbbc.css",
+    "static/js/main.482b02f3.js"
   ]
 }
