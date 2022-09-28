@@ -34,7 +34,16 @@ const MediaDay = () => {
           </header>
           <img src={blog11} alt='cover' />
           <p className='blog-desc'>
-            <br /><br /><h1>Kevin Durant…</h1><br /><br />
+
+            <br /><br /><h1>Something Is Up In Phoenix</h1><br /><br />
+            <p>This past postseason, during the Suns game 7 collapse against the Dallas Mavericks, Deandre Ayton and Coach Monty Williams got into a heated dispute. Monty Williams, at the time, wouldn’t share much of what exactly went it, calling the situation “internal”.</p><br /><br />
+            <p>Ayton was an RFA this past offseason, and signed a 4 year $133M offer sheet with the Indiana Pacers. The Suns decided to match, bringing him back for the 2022-2023 NBA season.</p><br /><br />
+            <p>Ayton, however, made it abundantly clear on day 1 that there is still some sort of bad blood between him and Williams:</p><br /><br />
+            <TwitterTweetEmbed tweetId={'1574865758001106944'} />
+            <br /><br />
+            <p>This situation will be interesting to follow going into the regular season.</p><br /><br />
+
+            <h1>Kevin Durant…</h1><br /><br />
             <p>It would be an understatement that there was a bit of turmoil within the Nets organization this past offseason. Late last year, the Nets made the decision to trade James Harden and Paul Millsap to the 76ers for Ben Simmons, Seth Curry, and Andre Drummond. Ben Simmons availability was questioned, but he was expected to be able to return come playoff time. Obviously that did not happen, and the Nets ended up getting swept by the Boston Celtics. The frustration after an embarrassing playoff series loss, coupled with contempt between Durant and different members within the front office lead to Durant requesting a trade. No suitable partners were found, forcing Kevin Durant to stay in a Nets uniform. In regards to Kevin Durant’s commitment to the squad following all the events of the past year, here is what he had to say:</p><br /><br />
             <TwitterTweetEmbed tweetId={'1574417071999488002'} /> <br /><br />
             <p>As of right now, KD appears to be committed to this team. With a healthy Ben Simmons and available Kyrie Irving (which both are far from certainties), this Nets team will at the very least be a fascinating team to monitor.</p><br /><br />
