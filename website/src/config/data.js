@@ -9,6 +9,7 @@ import blog7 from './blog7.png';
 import blog8 from './blog8.png';
 import blog9 from './blog9.png';
 import blog10 from './blog10.png';
+import blog11 from './blog11.png';
 
 export const blogList = [
   {
@@ -167,7 +168,7 @@ export const blogList = [
     authorName: 'Jared Haverdink',
     authorAvatar: 'https://media-exp1.licdn.com/dms/image/C4E03AQErcwFTWNdQHA/profile-displayphoto-shrink_200_200/0/1613409482439?e=1665619200&v=beta&t=3HsFHoulpCyukzEx35xvKIQSoCXYQeqCxUTnS3GTIGM',
     cover: blog9,
-    createdAt: 'September 13, 2022'
+    createdAt: 'September 21st, 2022'
   },
   {
     id: 10,
@@ -176,10 +177,22 @@ export const blogList = [
     description: [`Following the conclusion of week 4, let's take a deep dive and see what stood out the most:`],
     authorName: 'Nick Martin',
     authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQF69_iPKLuVGg/profile-displayphoto-shrink_800_800/0/1613173186664?e=1668038400&v=beta&t=rgOs-V8wGMY6_weE6O0zWVgRySLTK0uP4K8Be2YUWJM',
-    createdAt: 'September 19, 2022',
+    createdAt: 'September 26th, 2022',
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
     authorRole: 'College Sports Writer',
     cover: blog10,
+  },
+  {
+    id: 11,
+    title: 'Biggest Moments From NBA Media Day',
+    category: 'NBA',
+    description: [`The start of the 2022-2023 NBA Season is upon us. Let's take a look at what stood out the most from media day:`],
+    authorName: 'Ian Cook',
+    authorAvatar: 'https://campgeneva.org/wp-content/uploads/2022/06/Cook_Ian.jpg',
+    createdAt: 'September 28th, 2022',
+    cover: blog11,
+    authorRole: 'NBA Writer',
+    authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Computer Science'],
   }
 
 ];

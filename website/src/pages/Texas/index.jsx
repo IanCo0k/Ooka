@@ -21,7 +21,7 @@ const Texas = () => {
             </title>
           </Helmet>
           <header>
-            <p className='blog-date'>September 13th, 2022</p>
+            <p className='blog-date'>September 19th, 2022</p>
             <h1>Will 2023 be the Class that Brings Texas Back? </h1>
             <div className='blog-subCategory'>
                 <div>

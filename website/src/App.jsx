@@ -4,6 +4,7 @@ import { Route, HashRouter } from 'react-router-dom';
 import './App.css';
 import Top5QBweek1 from './pages/Top5QBweek1';
 import Top5PG from './pages/Top5PG';
+import MediaDay from './pages/MediaDay';
 import NFLPredictions from './pages/NFLPredictions';
 import NFLW1 from './pages/NFLW1';
 import NFLW2 from './pages/NFLW2';
@@ -38,6 +39,7 @@ const App = () => {
         <Route path='/blog/8' component={Texas} />
         <Route path='/blog/9' component={NFLW2} />
         <Route path='/blog/10' component={CFBW4} />
+        <Route path='/blog/11' component={MediaDay} />
         <Route path='/about/' component={AboutUs} />
       </HashRouter>
     </div>
