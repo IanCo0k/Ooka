@@ -16,12 +16,12 @@ const NFLW1 = () => {
         <div className='blog-wrap'>
           <Helmet>
             <title>
-            Winners and Losers of Week 1
+            Winners & Losers of Week 1
             </title>
           </Helmet>
           <header>
             <p className='blog-date'>Published on September 13th</p>
-            <h1>Winners and Losers of Week 1</h1>
+            <h1>Winners & Losers of Week 1</h1>
             <div className='blog-subCategory'>
                 <div>
                 <Chip label='NFL'/>

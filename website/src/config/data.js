@@ -10,6 +10,8 @@ import blog8 from './blog8.png';
 import blog9 from './blog9.png';
 import blog10 from './blog10.png';
 import blog11 from './blog11.png';
+import blog12 from './blog12.png';
+import blog13 from './blog13.png';
 
 export const blogList = [
   {
@@ -104,7 +106,7 @@ export const blogList = [
   },
   {
     id: 4,
-    title: 'Winners and Losers of Week 1',
+    title: 'Winners & Losers of Week 1',
     category: 'NFL',
     description:[`Discussing the winners and losers from week 1`],
     authorName: 'Jared Haverdink',
@@ -193,6 +195,28 @@ export const blogList = [
     cover: blog11,
     authorRole: 'NBA Writer',
     authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Computer Science'],
-  }
+  },
+  {
+    id: 12,
+    title: 'Winners & Losers of Week 3',
+    category: 'NFL',
+    description:[`Discussing the winners and losers from week 3`],
+    authorName: 'Jared Haverdink',
+    authorAvatar: 'https://media-exp1.licdn.com/dms/image/C4E03AQErcwFTWNdQHA/profile-displayphoto-shrink_200_200/0/1613409482439?e=1665619200&v=beta&t=3HsFHoulpCyukzEx35xvKIQSoCXYQeqCxUTnS3GTIGM',
+    cover: blog12,
+    createdAt: 'September 29th, 2022'
+  },
+  {
+    id: 13,
+    title: 'Preseason Power 25 for the ‘22-‘23 College Basketball Season',
+    category: 'NCAA',
+    description: [`Andy Katz recently released his power 36 for the upcoming college basketball season. It inspired me to release my own preseason power rankings.`],
+    authorName: 'Nick Martin',
+    authorAvatar: 'https://media-exp1.licdn.com/dms/image/C5603AQF69_iPKLuVGg/profile-displayphoto-shrink_800_800/0/1613173186664?e=1668038400&v=beta&t=rgOs-V8wGMY6_weE6O0zWVgRySLTK0uP4K8Be2YUWJM',
+    createdAt: 'September 29th, 2022',
+    authorBio: ['Rockford, Michigan', 'Central Michigan University', 'Broadcasting'],
+    authorRole: 'College Sports Writer',
+    cover: blog13,
+  },
 
 ];

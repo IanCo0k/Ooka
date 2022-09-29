@@ -8,11 +8,13 @@ import MediaDay from './pages/MediaDay';
 import NFLPredictions from './pages/NFLPredictions';
 import NFLW1 from './pages/NFLW1';
 import NFLW2 from './pages/NFLW2';
+import NFLW3 from './pages/NFLW3';
 import Top5Backcourts from './pages/Top5Backcourts';
 import CFBW2 from './pages/CFBW2';
 import CFBW3 from './pages/CFBW3';
 import CFBW4 from './pages/CFBW4';
 import Texas from './pages/Texas';
+import Power25 from './pages/Power25';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import ReactGA from 'react-ga';
@@ -40,6 +42,8 @@ const App = () => {
         <Route path='/blog/9' component={NFLW2} />
         <Route path='/blog/10' component={CFBW4} />
         <Route path='/blog/11' component={MediaDay} />
+        <Route path='/blog/12' component={NFLW3} />
+        <Route path='/blog/13' component={Power25} />
         <Route path='/about/' component={AboutUs} />
       </HashRouter>
     </div>
