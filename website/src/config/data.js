@@ -12,6 +12,8 @@ import blog10 from './blog10.png';
 import blog11 from './blog11.png';
 import blog12 from './blog12.png';
 import blog13 from './blog13.png';
+import blog14 from './blog14.png';
+import chet from './chet.png';
 
 export const blogList = [
   {
@@ -218,5 +220,15 @@ export const blogList = [
     authorRole: 'College Sports Writer',
     cover: blog13,
   },
+  {
+    id: 14,
+    title: 'MLB Playoffs Predictions/Preview',
+    category: 'MLB',
+    description: [`With the MLB playoffs starting today, the time has come to preview and predict all of the rounds from the Wild Card leading to the World Series.  Starting today, October 7, the road to the World Series officially starts for 12 teams.  All of these teams have a fresh slate, with only 13 wins required to be crowned World Champions.  Without further fanfare, let’s start in the National League.`],
+    authorName: 'Chet Huls',
+    createdAt: 'October 7th, 2022',
+    authorAvatar: chet,
+    cover: blog14,
+  }
 
 ];

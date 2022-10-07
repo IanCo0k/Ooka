@@ -14,6 +14,7 @@ import CFBW2 from './pages/CFBW2';
 import CFBW3 from './pages/CFBW3';
 import CFBW4 from './pages/CFBW4';
 import Texas from './pages/Texas';
+import MLBPlayoff from './pages/MLBPlayoff';
 import Power25 from './pages/Power25';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
@@ -44,6 +45,7 @@ const App = () => {
         <Route path='/blog/11' component={MediaDay} />
         <Route path='/blog/12' component={NFLW3} />
         <Route path='/blog/13' component={Power25} />
+        <Route path='/blog/14' component={MLBPlayoff} />
         <Route path='/about/' component={AboutUs} />
       </HashRouter>
     </div>

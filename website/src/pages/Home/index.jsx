@@ -30,7 +30,7 @@ const Home = () => {
 
     <Navbar handleSearchResults={handleSearchResults} handleClearSearch={handleClearSearch} />
 
-    <div style={{ padding: '2rem'}} >
+    <div>
       <Helmet>
         <title>
           Tuesday Night Takes
